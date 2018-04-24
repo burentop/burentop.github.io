@@ -7,24 +7,27 @@
       a {
         color: red;
       }
-      div {
+      .bio-box {
         border: 1px solid black;
       }
-      li {
-        border: 1px solid black;
+      .micro-cloud {
+        background-color: azure;
       }
-      div a {
+      #exec-bio {
+        background-color: lightgray;
+      }
+      #halloween {
+        background-color: orange;
+      }
+      .bio-box a {
         color: green;
-      }
-      li a {
-        color: blue;
       }
     </style>
   </head>
   <body>
     <h1>I'm an h1</h1>
     <ul>
-      <li>
+      <li id="halloween">
         <a href="http://example.com/">Link</a>
       </li>
       <li>
@@ -35,16 +38,16 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div>
+    <div id="exec-bio" class="bio-box micro-cloud">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box micro-cloud">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box micro-cloud">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box micro-cloud">
       <a href="http://example.com/">I'm a link</a>
     </div>
   </body>
